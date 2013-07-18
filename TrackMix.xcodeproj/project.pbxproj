@@ -17,6 +17,7 @@
 		39013FFB175CFEAA003BF155 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39013FDB175CFEA9003BF155 /* Cocoa.framework */; };
 		39014003175CFEAA003BF155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39014001175CFEAA003BF155 /* InfoPlist.strings */; };
 		39014006175CFEAA003BF155 /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39014005175CFEAA003BF155 /* TrackMixTests.m */; };
+		39BC96CA175D2B440064B318 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC96C9175D2B440064B318 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		39014002175CFEAA003BF155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39014004175CFEAA003BF155 /* TrackMixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMixTests.h; sourceTree = "<group>"; };
 		39014005175CFEAA003BF155 /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		39BC96C8175D2B440064B318 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		39BC96C9175D2B440064B318 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				39013FEE175CFEA9003BF155 /* AppDelegate.m */,
 				39013FF0175CFEA9003BF155 /* MainMenu.xib */,
 				39013FE2175CFEA9003BF155 /* Supporting Files */,
+				39BC96C8175D2B440064B318 /* Track.h */,
+				39BC96C9175D2B440064B318 /* Track.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			files = (
 				39013FE8175CFEA9003BF155 /* main.m in Sources */,
 				39013FEF175CFEA9003BF155 /* AppDelegate.m in Sources */,
+				39BC96CA175D2B440064B318 /* Track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +458,7 @@
 				3901400B175CFEAA003BF155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3901400C175CFEAA003BF155 /* Build configuration list for PBXNativeTarget "TrackMixTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +467,7 @@
 				3901400E175CFEAA003BF155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
